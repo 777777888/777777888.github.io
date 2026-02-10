@@ -67,6 +67,16 @@ section {
     background-color: transparent !important;
 }
 
+.wrapper.style1:before,
+.wrapper.style2:before,
+.wrapper.style3:before,
+.wrapper.style4:before {
+    background-color: #A8A8A8 !important;
+    fill: #A8A8A8 !important;
+}
+
+
+
 
 
 
@@ -3926,6 +3936,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
