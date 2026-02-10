@@ -26,6 +26,50 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
+/* ==== CUSTOM COLOR SYSTEM ==== */
+
+body {
+    background-color: #737373 !important;
+    color: #F2F2F2 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1C1C1C !important;
+}
+
+a {
+    color: #404040 !important;
+}
+
+a:hover {
+    color: #A6A6A6 !important;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: #A6A6A6 !important;
+    color: #F2F2F2 !important;
+    border-color: #A6A6A6 !important;
+}
+
+.button:hover {
+    background-color: #A6A6A6 !important;
+    border-color: #A6A6A6 !important;
+}
+
+/* Section backgrounds */
+.wrapper,
+.inner,
+section {
+    background-color: transparent !important;
+}
+
+
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -3882,6 +3926,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
