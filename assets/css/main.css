@@ -30,7 +30,7 @@ section, summary, time, mark, audio, video {
 /* ==== CUSTOM COLOR SYSTEM ==== */
 
 body {
-    background-color: #737373 !important;
+    background-color: #F2F2F2 !important;
     color: #F2F2F2 !important;
 }
 
@@ -3926,6 +3926,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
