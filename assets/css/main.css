@@ -2027,7 +2027,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #404040;
+				background-color: #61617D;
 			}
 
 			input[type="submit"].primary:active,
@@ -2035,7 +2035,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #404040;
+				background-color: #61617D;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -3936,6 +3936,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
