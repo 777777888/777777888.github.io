@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: #9560EC !important;
+    color: #7B7C8E !important;
 }
 
 .button,
@@ -71,7 +71,7 @@ section {
 .wrapper.style2:before,
 .wrapper.style3:before,
 .wrapper.style4:before {
-    background-: #A6A6A6 !important;
+    background-: #7B7C8E !important;
     fill: #737373 !important;
 }
 
@@ -3936,6 +3936,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
