@@ -31,7 +31,7 @@ section, summary, time, mark, audio, video {
 
 body {
     background-color: #F2F2F2 !important;
-    color: #A6A6A6 !important;
+    color: #404040 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,11 +39,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #7B7C8E !important;
+    color: #737373 !important;
 }
 
 a:hover {
-    color: #7B7C8E !important;
+    color: #737373 !important;
 }
 
 .button,
@@ -3936,6 +3936,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
