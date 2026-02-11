@@ -3347,7 +3347,7 @@ input, select, textarea {
 		}
 
 			#wrapper > section > header:before {
-				background: #A6A6A6;
+				background: #7B7C8E;
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3936,6 +3936,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
