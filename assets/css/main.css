@@ -71,8 +71,8 @@ section {
 .wrapper.style2:before,
 .wrapper.style3:before,
 .wrapper.style4:before {
-    background-: #7B7C8E !important;
-    fill: #737373 !important;
+    background-: #404040 !important;
+    fill: #404040 !important;
 }
 
 
@@ -3347,7 +3347,7 @@ input, select, textarea {
 		}
 
 			#wrapper > section > header:before {
-				background: #7B7C8E;
+				background: #404040;
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3936,6 +3936,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
