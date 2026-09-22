@@ -483,7 +483,7 @@ section {
 }
 
 .project-detail.is-open {
-  max-height: 2400px;
+  max-height: 20000px;
 }
 
 .project-detail-inner {
