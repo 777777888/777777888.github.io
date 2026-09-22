@@ -658,6 +658,10 @@ section {
   max-width: 380px;
 }
 
+.case-study .badge-row.wide .board-frame {
+  max-width: 100%;
+}
+
 @media (max-width: 860px) {
   .case-study .boards { grid-template-columns: 1fr; }
 }
