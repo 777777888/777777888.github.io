@@ -587,7 +587,10 @@ document.querySelectorAll('.project-card').forEach(function (card) {
     var panel = document.getElementById(targetId);
     var wasOpen = panel.classList.contains('is-open');
 
-    document.querySelectorAll('.project-detail.is-open').forEach(function (p) { p.classList.remove('is-open'); });
+    document.querySelectorAll('.project-detail.is-open').forEach(function (p) {
+      p.classList.remove('is-open');
+      p.style.maxHeight = '';
+    });
     document.querySelectorAll('.project-card.is-open').forEach(function (c) {
       c.classList.remove('is-open');
       c.querySelector('.toggle-indicator').innerHTML = '<span class="plus">+</span> View project';
@@ -595,6 +598,7 @@ document.querySelectorAll('.project-card').forEach(function (card) {
 
     if (!wasOpen) {
       panel.classList.add('is-open');
+      panel.style.maxHeight = panel.scrollHeight + 'px';
       card.classList.add('is-open');
       card.querySelector('.toggle-indicator').innerHTML = '<span class="plus">+</span> Close';
       setTimeout(function () {
@@ -602,6 +606,11 @@ document.querySelectorAll('.project-card').forEach(function (card) {
       }, 120);
     }
   });
+});
+
+window.addEventListener('resize', function () {
+  var openPanel = document.querySelector('.project-detail.is-open');
+  if (openPanel) { openPanel.style.maxHeight = openPanel.scrollHeight + 'px'; }
 });
 </script>
 
