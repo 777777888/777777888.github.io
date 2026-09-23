@@ -296,6 +296,75 @@ section {
   justify-content: center;
 }
 
+/* ===========================================================
+   Horizontal sliding detail gallery
+=========================================================== */
+
+.hscroll-wrap {
+  border: 1px solid var(--line);
+  border-top: none;
+  background: var(--surface);
+  padding: 24px 0 28px;
+}
+
+.hscroll-label {
+  padding: 0 32px 16px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.hscroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding: 0 32px 8px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.hscroll::-webkit-scrollbar {
+  height: 8px;
+}
+.hscroll::-webkit-scrollbar-thumb {
+  background: var(--line);
+}
+.hscroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hscroll-item {
+  flex: 0 0 auto;
+  width: 260px;
+  scroll-snap-align: start;
+}
+
+.hscroll-item .frame {
+  background: #fff;
+  padding: 8px;
+  border: 1px solid var(--line);
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hscroll-item .frame img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.hscroll-item .cap {
+  margin-top: 8px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-family: var(--font-display);
+}
+
 .featured-body .eyebrow {
   color: var(--rust-bright);
   font-family: var(--font-display);
